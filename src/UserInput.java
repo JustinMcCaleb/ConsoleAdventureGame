@@ -16,4 +16,9 @@ public class UserInput {
     public int getInt(){
         return this.scanner.nextInt();
     }
+
+    public boolean yesNo(){
+        String input = this.scanner.nextLine();
+        return input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y");
+    }
 }
