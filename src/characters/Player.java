@@ -12,27 +12,12 @@ public class Player {
     }
 
     //getters and setters
-    public void setName(String name){
-        this.name = name;
-    }
+    public void setName(String name){this.name = name;}
+    public void setHealth(int health){this.health = health;}
+    public void setAttackPoints(int attackPoints){this.attackPoints = attackPoints;}
 
-    public String getName(){
-        return this.name;
-    }
+    public String getName(){return this.name;}
+    public int getHealth(){return this.health;}
+    public int getAttackPoints(){return this.attackPoints;}
 
-    public void setHealth(int health){
-        this.health = health;
-    }
-
-    public int getHealth(){
-        return this.health;
-    }
-
-    public void setAttackPoints(int attackPoints){
-        this.attackPoints = attackPoints;
-    }
-
-    public int getAttackPoints(){
-        return this.attackPoints;
-    }
 }
