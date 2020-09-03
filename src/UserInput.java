@@ -12,4 +12,8 @@ public class UserInput {
     public String getString(){
         return this.scanner.nextLine();
     }
+
+    public int getInt(){
+        return this.scanner.nextInt();
+    }
 }

@@ -6,8 +6,11 @@ public class RunApplication {
 
         System.out.println("Enter a string: ");
         String userString = in.getString();
-
         System.out.println("You entered: " + userString);
+
+        System.out.println("Enter a number: ");
+        int userInt = in.getInt();
+        System.out.println(userInt);
     }
 
 }
