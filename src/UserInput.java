@@ -19,6 +19,7 @@ public class UserInput {
 
     public boolean yesNo(){
         String input = this.scanner.nextLine();
-        return input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y");
+        String sanitizedInput = input.trim();
+        return sanitizedInput.equalsIgnoreCase("yes") || sanitizedInput.equalsIgnoreCase("y");
     }
 }
