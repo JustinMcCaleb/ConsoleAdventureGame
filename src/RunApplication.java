@@ -39,8 +39,13 @@ public class RunApplication {
         System.out.println("You wake up in an unfamiliar room.\nConfused with a pounding head you decide to sit up.\nWhat do you do next?");
 
         System.out.println("[1] Go back to sleep\n[2]Get out of bed");
-        switchTwo(in.getInt(), "Everything fades to black... you never wakeup", "As you stand up you feel a shooting pain from your left ankle and fall to the ground");
 
+        if(in.getInt() == 1){
+            System.out.println("Everything fades to black... you never wakeup");
+        }else {
+            System.out.println("As you stand up you feel a shooting pain from your left ankle and fall to the ground\nYou look down and see a bruised and swollen ankle. ");
+
+        }
 
 
 
