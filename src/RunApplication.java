@@ -34,10 +34,17 @@ public class RunApplication {
             "Bigfoot"
     };
 
+    //uses random to return a random element from array of strings
+    static String randomStringArrayElement(String[] array){
+        return array[randomNum.nextInt(array.length)];
+    }
+
     //array of villains for more random gameplay. not sure how to add them yet or if it will work
     static Villain[] randomVillain = {
 
     };
+
+
 
 
     //switch case for left or right
