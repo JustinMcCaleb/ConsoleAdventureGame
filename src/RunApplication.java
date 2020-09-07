@@ -13,6 +13,17 @@ public class RunApplication {
         return randomNum.nextInt(10);
     }
 
+
+    //house pets array
+    static String[] housePets = {
+            "Dog",
+            "Cat",
+            "Lizard",
+            "Bird",
+            "Snake"
+    };
+
+
     //switch case for left or right
 //    static void leftOrRight(String input){
 //        switch (input){
