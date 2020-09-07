@@ -1,3 +1,4 @@
+import characters.Demon;
 import characters.Player;
 import characters.Villain;
 
@@ -31,6 +32,11 @@ public class RunApplication {
             "Squirrel",
             "Rabbit",
             "Bigfoot"
+    };
+
+    //array of villains for more random gameplay. not sure how to add them yet or if it will work
+    static Villain[] randomVillain = {
+
     };
 
 

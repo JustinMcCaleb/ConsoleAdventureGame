@@ -7,4 +7,6 @@ public class Demon extends Villain{
         super(name, health, attackPoints);
     }
 
+    public Demon() {
+    }
 }
