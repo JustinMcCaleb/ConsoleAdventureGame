@@ -14,6 +14,9 @@ public class Villain {
         this.attackPoints = attackPoints;
     }
 
+    public Villain() {
+    }
+
     //getters and setters
     public void setName(String name){this.name = name;}
     public void setHealth(int health){this.health = health;}

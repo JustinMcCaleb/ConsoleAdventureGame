@@ -1,3 +1,4 @@
+import characters.Demon;
 import characters.Player;
 import characters.Villain;
 
@@ -12,6 +13,39 @@ public class RunApplication {
     static int attackProbability(){
         return randomNum.nextInt(10);
     }
+
+
+    //house pets array
+    static String[] housePets = {
+            "Dog",
+            "Cat",
+            "Lizard",
+            "Bird",
+            "Snake"
+    };
+
+    //animals array
+    static String[] animals = {
+            "Deer",
+            "Bear",
+            "Racoon",
+            "Squirrel",
+            "Rabbit",
+            "Bigfoot"
+    };
+
+    //uses random to return a random element from array of strings
+    static String randomStringArrayElement(String[] array){
+        return array[randomNum.nextInt(array.length)];
+    }
+
+    //array of villains for more random gameplay. not sure how to add them yet or if it will work
+    static Villain[] randomVillain = {
+
+    };
+
+
+
 
     //switch case for left or right
 //    static void leftOrRight(String input){
