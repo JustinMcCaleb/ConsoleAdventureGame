@@ -23,6 +23,16 @@ public class RunApplication {
             "Snake"
     };
 
+    //animals array
+    static String[] animals = {
+            "Deer",
+            "Bear",
+            "Racoon",
+            "Squirrel",
+            "Rabbit",
+            "Bigfoot"
+    };
+
 
     //switch case for left or right
 //    static void leftOrRight(String input){
